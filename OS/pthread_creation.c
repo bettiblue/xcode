@@ -12,6 +12,7 @@ void* do_loop(void *data)
         printf("%d - Got %d\n", me, i);
         sleep(1);
     }
+    return 0;
 }
 
 int main()
@@ -31,6 +32,6 @@ int main()
     pthread_join(p_thread[1], (void **) &status);
     pthread_join(p_thread[2], (void **) &status);
     
-    printf("programing is end\n");
+    printf("program is end..\n");
     return 0;
 }

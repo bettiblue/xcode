@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F42C5B0D1C5C9D1A0050E5A8 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F42C5B0C1C5C9D1A0050E5A8 /* main.c */; };
+		F43A55EB1C60815F00EC6A80 /* producer_consumer_problem.c in Sources */ = {isa = PBXBuildFile; fileRef = F43A55E41C607F9700EC6A80 /* producer_consumer_problem.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		F42C5B071C5C9D1A0050E5A8 /* CopyFiles */ = {
+		F42C5B071C5C9D1A0050E5A8 /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
 			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -25,6 +26,16 @@
 /* Begin PBXFileReference section */
 		F42C5B091C5C9D1A0050E5A8 /* OS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OS; sourceTree = BUILT_PRODUCTS_DIR; };
 		F42C5B0C1C5C9D1A0050E5A8 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F42C5B131C5CA5360050E5A8 /* mutex_lock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mutex_lock.c; sourceTree = "<group>"; };
+		F42C5B151C5CC3D20050E5A8 /* pthread_1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pthread_1.c; sourceTree = "<group>"; };
+		F42C5B171C5CC3E40050E5A8 /* pthread_creation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pthread_creation.c; sourceTree = "<group>"; };
+		F42C5B1A1C5CC6310050E5A8 /* pthread_2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pthread_2.c; sourceTree = "<group>"; };
+		F42C5B1C1C5CC93B0050E5A8 /* mutex_cond_variable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mutex_cond_variable.c; sourceTree = "<group>"; };
+		F43A55DC1C607F0800EC6A80 /* pthread_creation2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pthread_creation2.c; sourceTree = "<group>"; };
+		F43A55DE1C607F4C00EC6A80 /* pthread_creation_quiz1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pthread_creation_quiz1.c; sourceTree = "<group>"; };
+		F43A55E01C607F5B00EC6A80 /* pthread_creation_quiz2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pthread_creation_quiz2.c; sourceTree = "<group>"; };
+		F43A55E21C607F6700EC6A80 /* pthread_creation_quiz3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pthread_creation_quiz3.c; sourceTree = "<group>"; };
+		F43A55E41C607F9700EC6A80 /* producer_consumer_problem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = producer_consumer_problem.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,16 @@
 			isa = PBXGroup;
 			children = (
 				F42C5B0C1C5C9D1A0050E5A8 /* main.c */,
+				F42C5B131C5CA5360050E5A8 /* mutex_lock.c */,
+				F42C5B151C5CC3D20050E5A8 /* pthread_1.c */,
+				F42C5B1A1C5CC6310050E5A8 /* pthread_2.c */,
+				F42C5B1C1C5CC93B0050E5A8 /* mutex_cond_variable.c */,
+				F42C5B171C5CC3E40050E5A8 /* pthread_creation.c */,
+				F43A55DC1C607F0800EC6A80 /* pthread_creation2.c */,
+				F43A55DE1C607F4C00EC6A80 /* pthread_creation_quiz1.c */,
+				F43A55E01C607F5B00EC6A80 /* pthread_creation_quiz2.c */,
+				F43A55E21C607F6700EC6A80 /* pthread_creation_quiz3.c */,
+				F43A55E41C607F9700EC6A80 /* producer_consumer_problem.c */,
 			);
 			path = OS;
 			sourceTree = "<group>";
@@ -71,7 +92,7 @@
 			buildPhases = (
 				F42C5B051C5C9D1A0050E5A8 /* Sources */,
 				F42C5B061C5C9D1A0050E5A8 /* Frameworks */,
-				F42C5B071C5C9D1A0050E5A8 /* CopyFiles */,
+				F42C5B071C5C9D1A0050E5A8 /* Copy Files */,
 			);
 			buildRules = (
 			);
@@ -118,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F42C5B0D1C5C9D1A0050E5A8 /* main.c in Sources */,
+				F43A55EB1C60815F00EC6A80 /* producer_consumer_problem.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +258,7 @@
 				F42C5B121C5C9D1A0050E5A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
